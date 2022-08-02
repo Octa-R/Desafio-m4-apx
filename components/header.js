@@ -18,6 +18,7 @@ function Header(el) {
           <a href="./contact.html">Contacto</a>
         </li>
       </ul>
+      <img class="header__burguer-closed" src="./img/burger-closed.svg"></img>
     </nav>
   `
   el.prepend(headerEl)

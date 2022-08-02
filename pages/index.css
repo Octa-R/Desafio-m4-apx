@@ -3,5 +3,53 @@
 }
 body {
     margin: 0;
-    background-color: rgba(5, 18, 14, 0.485);
+}
+
+.home {
+    height: 620px;
+    color: white;
+    background-color: #141414;
+    width: 100%;
+    font-family: "Montserrat",sans-serif;
+}
+.home__container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 150px);
+}
+
+.home__container > h1, .home__container > h2 {
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.home__container > h1 {
+    font-size: 48px;
+}
+
+.home__container > h2 {
+    font-size: 32px;
+}
+
+.i-am {
+    height: 620px;
+    background-color: #141414;
+}
+
+.services {
+    min-height: 620px;
+    background-color: #FAFAFA;
+}
+
+.contact {
+    min-height: 620px;
+    background-color: #141414;
+}
+
+.footer {
+    height: 400px;
+    background-color: #2C2C2C;
 }
