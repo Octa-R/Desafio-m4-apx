@@ -10,7 +10,7 @@ body {
     height: 100vh;
     width: 100%;
     min-height: 420px;
-    max-height: 820px;
+    max-height: 1024px;
     color: #ffffff;
     font-family: "Montserrat",sans-serif;
     background: rgb(2,0,36);
@@ -42,7 +42,9 @@ body {
 }
 
 .i-am {
-    height: 620px;
+    height: 500px;
+    min-height: 500px;
+    max-height: 512px;
     background-color: #141414;
     padding: 60px 40px;
     color: white;
@@ -78,8 +80,25 @@ body {
 }
 
 .services {
-    min-height: 620px;
+    max-height: 1024px;
+    width: 100%;
+    min-height: 600px;
     background-color: #FAFAFA;
+    padding: 50px;
+    max-height: 2048px;
+}
+
+.services__container {
+    height:100%;
+    width: 100%;
+}
+
+.services__container > h2 {
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
 }
 
 .contact {
