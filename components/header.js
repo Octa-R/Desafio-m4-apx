@@ -3,8 +3,7 @@ function Header(el) {
   headerEl.classList.add("header")
   headerEl.innerHTML = `
     <a href="./">
-      <img src="https://picsum.photos/200/50" class="header__logo">
-      </img>
+      <div class="header__logo">OCTA</div>
     </a>
     <nav class="header__nav">
       <ul class="header__links">

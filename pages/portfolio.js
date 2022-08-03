@@ -1,5 +1,5 @@
 function main() {
-    Header(document.body);
+    Header(document.querySelector(".portfolio"));
 }
 
 main()

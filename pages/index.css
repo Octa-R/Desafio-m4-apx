@@ -1,23 +1,30 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
 }
 
 .home {
-    height: 620px;
-    color: white;
-    background-color: #141414;
+    height: 100vh;
     width: 100%;
+    min-height: 420px;
+    max-height: 820px;
+    color: #ffffff;
     font-family: "Montserrat",sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(0,193,232,1) 78%);
 }
+
 .home__container {
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: calc(100% - 150px);
+    max-height: 800px;
+    padding-bottom: 150px;
 }
 
 .home__container > h1, .home__container > h2 {
@@ -52,7 +59,7 @@ body {
 
 .i-am__text-container{
     max-width: 600px;
-    max-height: 200px;
+    max-height: 400px;
     margin: auto;
 }
 

@@ -11,6 +11,8 @@ async function main() {
     const json = await res.json()
 
     console.log(json)
+
+    Footer(document.querySelector("footer"))
 }
 
 main()
