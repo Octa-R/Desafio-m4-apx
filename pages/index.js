@@ -12,7 +12,7 @@ async function main() {
 
     console.log(json)
 
-    Footer(document.querySelector("footer"))
+    Footer(document.body)
 }
 
 main()
