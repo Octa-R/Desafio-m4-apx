@@ -37,6 +37,37 @@ body {
 .i-am {
     height: 620px;
     background-color: #141414;
+    padding: 60px 40px;
+    color: white;
+    font-family: "Poppins";
+}
+
+.i-am__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-am__text-container{
+    max-width: 600px;
+    max-height: 200px;
+    margin: auto;
+}
+
+.i-am__title {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.i-am__content{
+    margin:0;
+    text-align:left;
+    font-size: 16px;
 }
 
 .services {
