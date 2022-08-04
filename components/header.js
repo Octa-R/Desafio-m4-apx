@@ -17,9 +17,11 @@ function Header(el) {
           <a href="./contact.html">Contacto</a>
         </li>
       </ul>
-      <img class="header__burger-closed" src="./img/burger-closed.svg"></img>
+      <img class="header__burger-closed" src="./img/closed.svg"></img>
       <div class="header__window">
-        <img class="header__burger-open" src="./img/burguer-open.svg"></img>
+        <div class="header__burger-container">
+          <img class="header__burger-open" src="./img/open.svg"></img>
+        </div>
         <ul class="header__window-links">
           <li class="header__window-link">
             <a href="./portfolio.html">Portfolio</a>
