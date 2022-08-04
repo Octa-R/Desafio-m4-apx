@@ -1,7 +1,7 @@
-function Footer(el){
-    const footerEl = document.createElement("footer")
-    footerEl.classList.add("footer")
-    footerEl.innerHTML = `
+function Footer(el) {
+  const footerEl = document.createElement("footer")
+  footerEl.classList.add("footer")
+  footerEl.innerHTML = `
     <div class="footer__container">
         <div class="footer__logo">OCTA</div>
         <div class="footer__social__container">
@@ -20,5 +20,5 @@ function Footer(el){
         </div>
     </div>
     `
-    el.appendChild(footerEl);
+  el.appendChild(footerEl);
 }

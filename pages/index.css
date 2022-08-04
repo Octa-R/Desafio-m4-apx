@@ -102,6 +102,19 @@ body {
 }
 
 .contact {
+    height: 620px;
     min-height: 620px;
     background-color: #141414;
+    padding: 70px 20px;
+    color: white;
+}
+
+@media (min-width: 875px) {
+    .contact {
+        padding: 80px 150px;
+    }
+}
+
+.contact__container {
+    height: 100%;
 }
