@@ -1,14 +1,42 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     background-color: rgba(5, 18, 14, 0.485);
     color: white;
 }
+.main {
+
+    height: 100vh;
+    background-image: linear-gradient(
+        315deg,
+        hsl(49deg 100% 69%) 0%,
+        hsl(19deg 100% 58%) 11%,
+        hsl(349deg 100% 47%) 23%,
+        hsl(319deg 100% 37%) 36%,
+        hsl(289deg 100% 26%) 48%,
+        hsl(259deg 100% 15%) 59%,
+        hsl(244deg 96% 19%) 68%,
+        hsl(228deg 92% 23%) 77%,
+        hsl(213deg 87% 28%) 85%,
+        hsl(198deg 84% 32%) 93%,
+        hsl(183deg 79% 36%) 100%
+    );
+
+}
+
+.services__container {
+    height: 100%;
+    width: 100%;
+
+}
 
 .services {
-    height: 100vh;
+    padding: 40px;
+    min-height: 1024px;
+    height: 1024px;
     width: 100vw;
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */

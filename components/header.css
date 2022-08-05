@@ -6,6 +6,12 @@
     height: 150px;
 }
 
+@media (max-width: 512px) {
+    .header {
+        padding: 25px 40px;
+    }
+}
+
 .header > a {
     width: auto;
     height: auto;

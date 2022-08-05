@@ -18,9 +18,7 @@ async function Services(el) {
     const json = await res.json()
     const imgURL = json.includes.Asset[0].fields.file.url.slice(2)
     
-    console.log(imgURL)
     const servicesList = json.items
-    console.log(servicesList)
 
     servicesList.forEach(service => {
 
