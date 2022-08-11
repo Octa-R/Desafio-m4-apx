@@ -1,58 +1,54 @@
 .footer {
-    height: 400px;
-    padding: 80px 150px;
-    background-color: #2C2C2C;
-    color: aliceblue;
+  height: 400px;
+  padding: 80px 150px;
+  background-color: #2c2c2c;
+  color: aliceblue;
 }
 
 .footer__social__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* gap: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__container {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__logo {
-    font-family: "Orbitron";
-    font-size: 48px;
-    margin-bottom: 30px;
-    text-align: center;
+  font-family: "Orbitron";
+  font-size: 48px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 @media (min-width: 875px) {
-    .footer__container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .footer__logo {
-        margin: auto 0;
-        height: 100%;
-    }
-} 
-
+  .footer__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__logo {
+    margin: auto 0;
+    height: 100%;
+  }
+}
 
 .footer__social-content {
-    font-family: "Poppins";
-    font-size: 18px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:10px;
+  font-family: "Poppins";
+  font-size: 18px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .footer__social-name {
-    /* display: inline; */
+  /* display: inline; */
 }
 
 .footer__social-icon {
-    /* display: inline; */
-    height: 40px;
+  height: 40px;
 }
