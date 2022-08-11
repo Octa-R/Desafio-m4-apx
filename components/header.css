@@ -4,6 +4,12 @@
   display: flex;
   align-items: center;
   height: 150px;
+  background-color: #14141430;
+
+  position: sticky;
+  top: 0;
+
+  box-shadow: 0px 0px 6px 0px rgba(5, 5, 5, 0.5); */
 }
 
 @media (max-width: 512px) {
@@ -15,6 +21,7 @@
 .header > a {
   width: auto;
   height: auto;
+  text-decoration: none;
 }
 
 .header__logo {
@@ -24,8 +31,61 @@
   font-family: "Orbitron";
   font-size: 48px;
   color: aliceblue;
-  text-decoration: none;
   font-style: normal;
+}
+
+.header__menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin-left: auto;
+}
+
+.header__menu-btn__burger {
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.header__menu-btn__burger::before,
+.header__menu-btn__burger::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+.header__menu-btn__burger::before {
+  transform: translateY(-16px);
+}
+.header__menu-btn__burger::after {
+  transform: translateY(16px);
+}
+
+/* ANIMATION */
+.header__menu-btn.open .header__menu-btn__burger {
+  /* transform: translateX(-50px); */
+  background: transparent;
+  box-shadow: none;
+}
+.header__menu-btn.open .header__menu-btn__burger::before {
+  /* transform: rotate(45deg) translate(0px, 0px); */
+  transform: rotate(45deg);
+}
+.header__menu-btn.open .header__menu-btn__burger::after {
+  /* transform: rotate(-45deg) translate(0px, 0px); */
+  transform: rotate(-45deg);
 }
 
 .header__nav {
@@ -107,8 +167,4 @@
   margin-left: auto;
   width: 55px;
   height: 55px;
-}
-
-.visible {
-  display: inherit;
 }
