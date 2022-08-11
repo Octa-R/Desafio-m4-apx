@@ -36,8 +36,11 @@ function Header(el) {
     </nav>
   `;
   const menuBtn = headerEl.querySelector(".header__menu-btn");
+  const headerWindow = headerEl.querySelector('.header__window');
   menuBtn.addEventListener("click", () => {
     menuBtn.classList.toggle("open");
+    headerWindow.classList.toggle("visible");
+
   });
 
   el.prepend(headerEl);

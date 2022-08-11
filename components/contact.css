@@ -47,14 +47,18 @@
 .contact__form__input {
   width: 335px;
   height: 45px;
+  border-radius: 5px;
+  /* border: none; */
+  border-color: #2c2c2c;
 }
 
 .contact__form__label > textarea {
   height: 115px;
+  resize: none;
 }
 
 .contact__form__button {
-  height: 35px;
+  height: 45px;
   width: 335px;
   margin-top: 10px;
   background-color: #2c2c2c;

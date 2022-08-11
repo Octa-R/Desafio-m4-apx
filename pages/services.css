@@ -32,8 +32,8 @@ body {
 
 .services {
   padding: 40px;
-  min-height: 1024px;
-  height: 1024px;
+  min-height: 512px;
+  height: auto;
   width: 100vw;
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(

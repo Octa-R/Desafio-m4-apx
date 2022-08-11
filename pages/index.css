@@ -86,9 +86,10 @@ body {
 }
 
 .services {
+  height: auto;
   max-height: 1024px;
   width: 100%;
-  min-height: 600px;
+  /* min-height: 600px; */
   background-color: #fafafa;
   padding: 50px;
   max-height: 2048px;
