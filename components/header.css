@@ -5,11 +5,14 @@
   align-items: center;
   height: 150px;
   background-color: #14141430;
+  width: 100%;
 
-  position: sticky;
+  position: fixed;
   top: 0;
 
-  box-shadow: 0px 0px 6px 0px rgba(5, 5, 5, 0.5); */
+  z-index: 9;
+
+  box-shadow: 0px 0px 6px 0px rgba(5, 5, 5, 0.5);
 }
 
 @media (max-width: 512px) {
@@ -112,7 +115,6 @@
   .header__links {
     display: none;
   }
-
 }
 
 .header__links-link > a {
@@ -157,4 +159,3 @@
   font-family: "Montserrat";
   height: 150px;
 }
-
