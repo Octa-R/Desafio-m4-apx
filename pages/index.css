@@ -90,7 +90,6 @@ body {
   height: auto;
   max-height: 1024px;
   width: 100%;
-  /* min-height: 600px; */
   background-color: #fafafa;
   padding: 50px;
   max-height: 2048px;
@@ -111,10 +110,10 @@ body {
 }
 
 .contact {
-  height: 620px;
+  height: auto;
   min-height: 620px;
   background-color: #141414;
-  padding: 70px 20px;
+  padding: 100px 20px;
   color: white;
 }
 

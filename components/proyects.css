@@ -20,27 +20,17 @@
 
 .proyect__item-container {
   width: 300px;
-  height: 350px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .proyect__item-img {
-  width: 200px;
-  height: 200px;
-  min-height: 200px;
+  width: 100px;
+  height: 100px;
+  min-height: 100px;
   width: auto;
-  /* height: 200px */
-}
-
-.proyect__item-title {
-  /* margin-top: 15px; */
-}
-
-.proyect__item-link {
-  margin-top: 15px;
-  font-size: 32px;
 }
 
 .proyect__item-description,
@@ -48,4 +38,26 @@
 .proyect__item-link {
   margin: 0;
   text-align: center;
+}
+
+.proyect__item-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Poppins";
+  /* margin-top: 15px; */
+}
+
+.proyect__item-link {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Poppins";
+  color: coral;
+  font-style: none;
+  text-decoration: none;
+}
+
+.proyect__item-description {
+  font-size: 16px;
+  font-weight: 400;
 }

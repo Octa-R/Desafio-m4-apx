@@ -8,7 +8,13 @@ body {
 
 .contact {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  min-height: 420px;
+  max-height: 1024px;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -23,7 +29,9 @@ body {
 }
 
 .contact__container {
-  margin: 100px 100px;
+  /* margin: 100px 100px; */
+  /* margin: auto auto; */
+  width: 100%;
   color: #fafafa;
-  height: calc(100% - 250px);
+  /* height: 100%; */
 }

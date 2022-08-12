@@ -1,5 +1,5 @@
 function main() {
-  Header(document.querySelector(".contact"));
+  Header(document.body);
   Contact(document.querySelector(".contact__container"));
   Footer(document.body);
 }
